@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "App",
-    "slug": "App",
+    "name": "Groowid",
+    "slug": "groowid",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "app",
-    "userInterfaceStyle": "automatic",
+    "scheme": "groowid",
+    "userInterfaceStyle": "light",
     "ios": {
       "icon": "./assets/expo.icon"
     },
@@ -31,6 +31,18 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Groowid to use your camera to scan business cards, badges and QR codes."
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow Groowid to record audio for your AI notes."
         }
       ]
     ],
